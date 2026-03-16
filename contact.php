@@ -10,7 +10,7 @@
 
     <div class="container">
         <h2>Me contacter</h2>
-        <form action="contact.php" method="POST">
+        <form action="https://formspree.io/f/mdawwpeg" method="POST">
             <label for="nom">Nom complet</label>
             <input type="text" name="nom" id="nom" placeholder="Ex: Jean Mukendi" value="<?php echo isset($_POST['nom']) ? htmlspecialchars($_POST['nom']) : ''; ?>" required>
 
